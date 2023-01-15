@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+h1 {
+    text-align: center;
+    padding: 8px;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.content img {
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+}
+
+.list{
+    list-style-type: none;
+    line-height: 25px;
+}
